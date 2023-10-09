@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Header>
+        Form fill up
+    </Header>
+    <main>
+        <h2>Registration Form</h2>
+        <form action="/action.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="Full name">
+            <label for="password">password</label>
+           <input type="password" id="password" placeholder="password">
+                <p>Gender</p>
+               
+            <label for="101">
+                <input type="radio" value="Female" name="Gender" id="101">Female
+            </label>
+            <label for="102">
+             <input type="radio" value="Male" name="Gender" id="102">Male
+            </label>
+            <label for="103">
+                <input type="radio" value="Other" name="Gender" id="103">Other
+               </label>
+            </select>
+                <br>
+                <br>
+                <p>Date of birth</p><input type="text" placeholder="DD/MM/YYYY">
+                <label for="Birthplace">Birthplace</label>
+                <input type="text" id="Birthplace" placeholder="place">
+                <p>Marital status</p>
+                <select name="marital status">
+                    <option value="Married">Married</option>
+                    <option value="Single">Single</option>
+                </select>
+                <label for="height">Height</label>
+                <input type="text" placeholder="height">
+                <P>telephone number</P><input type="text" placeholder="+91-">
+                <P>Address</P><input type="text" placeholder="Street Address"><br>
+                 <input type="text" placeholder="city">
+            <input type="text" placeholder="state">
+            <br>
+            <br>
+                <label for="Email">Email</label>
+                <input type="text" id="Email" placeholder="Email">
+            <h3>Type of work</h3>
+            <select>
+                <label for="1">
+                    <input type="radio" value="Permanent" name="work" id="1">Permanent
+                </label><br>
+               <label for="2">
+                <input type="radio" value="temporary" name="work" id="2">temporary
+               </label><br>
+               <label for="3">
+                <input type="radio" value="both" name="work" id="3">Both
+               </label><br>
+               <label for="4">
+                <input type="radio" value="Other" name="work" id="4">Other
+               </label><br>
+           </select>
+            <h2>Enter your feedback</h2>
+            <textarea name="feedback" id="4" placeholder="Please Enter your feedback" rows="5">feedback</textarea>
+            <hr>
+
+            <input type="submit" value="submit">
+        </form>
+      
+    </main>
+    <footer>
+        Contect me 
+    </footer>
+</body>
+</html>

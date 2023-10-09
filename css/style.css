@@ -1,0 +1,35 @@
+#hello2{
+    color: rgb(238, 89, 89);
+    font-weight: normal;
+}
+h2{
+    color: rgb(125, 233, 234);
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(103, 243, 23);
+    text-transform: lowercase;
+}
+button{
+    color: blueviolet;
+    background-color: rgb(166, 246, 246);
+}
+body{
+    background-color: #ffff00;
+}
+
+.myClass{
+    color: tomato;
+}
+#lorem{
+    text-align:left;
+    font-size: 14px;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+#hello3{
+    font-weight: lighter;
+}
+#hello4{
+    font-weight: bolder;
+}
